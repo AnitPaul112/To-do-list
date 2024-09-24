@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: rgb(232, 238, 238);
+}
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.input-container{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+
+}
+.input-container input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    margin-block: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+.input-container input[type='text']{
+    width: 70%;
+}
+.input-container input[type='button']{
+    width: 15%;
+    background-color: rgb(0, 128, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 8px;
+    padding: 12px 24x;
+
+}
+.input-container input[type='button']:hover{
+    background-color: rgb(15, 74, 236);
+}
+
+ul{
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    width: 100%;
+    max-width: 450px;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;  /* Ensures no bullet points */
+    cursor: pointer;
+    padding: 5px 12px;
+    border: 0.125px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-block: 5px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s;
+    
+
+}
+
+
+/* General styling for all li elements */
+ul li {
+    font-family: 'Poppins', sans-serif; /* Apply consistent font */
+    font-size: 16px; /* Adjust font size */
+    padding: 10px; /* Add padding for spacing */
+    margin-bottom: 8px; /* Space between items */
+    background-color: rgb(240, 240, 240); /* Background color */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border for styling */
+    list-style: none; /* Remove default bullet points */
+}
+
+/* Styling for paragraph inside li */
+ul li p {
+    margin: 0; /* Remove default margin from p */
+    font-size: 16px; /* Adjust font size */
+    flex-grow: 1;
+    padding: 2px;
+    
+}
+
+ul li:hover {
+    background-color: rgb(255, 255, 255); /* Change background color on hover */
+}
+
+.btn{
+    background-color: none;
+    
+    cursor: pointer;
+    font-weight: 700;
+
+    border: none;
+    
+    
+    
+}
+.deleteBtn{
+   
+    color: rgb(235, 8, 46);
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 10px;
+    }
+
+.editBtn{
+    
+    color: rgb(14, 138, 3);
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 10px;
+    
+}
